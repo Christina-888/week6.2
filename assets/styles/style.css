@@ -194,6 +194,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 25px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .link {
@@ -236,8 +237,7 @@ footer {
 .networks {
   width: 25px;
   height: 25px;
-  margin-left: 190%; 
   padding: 30px;
-  box-sizing: border-box;
+  margin-left: 190%;
 }
 
