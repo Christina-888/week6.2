@@ -169,6 +169,7 @@ h1 {
   grid-template-columns: 1fr 2.06fr;
   width: 100%;
   gap: 10px;
+  box-sizing: border-box;
 }
 
 .brushes-img {
@@ -191,7 +192,6 @@ footer {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 100%;
   padding: 25px;
   text-align: center;
 }
@@ -236,7 +236,8 @@ footer {
 .networks {
   width: 25px;
   height: 25px;
-  margin-left: 190%;
+  margin-left: 190%; 
   padding: 30px;
+  box-sizing: border-box;
 }
 
